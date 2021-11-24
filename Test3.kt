@@ -1,7 +1,8 @@
+import java.util.*
 fun main() {
-    val scan = java.util.Scanner(System.`in`)
-    var n = scan.nextInt()
-    var arr = IntArray(n)
+    val scan = Scanner(System.`in`)
+    val n = scan.nextInt()
+    val arr = IntArray(n)
     for (i in 0 until n) {
         arr[i] = scan.nextInt();
     }

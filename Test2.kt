@@ -1,6 +1,7 @@
+import java.util.*
 fun main() {
-    val scan = java.util.Scanner(System.`in`)
-    var name = scan.nextLine()
+    val scan = Scanner(System.`in`)
+    val name = scan.nextLine()
     val example = "вячеслав"
     if (name.lowercase().equals(example)) {
         println("Привет, Вячеслав")
